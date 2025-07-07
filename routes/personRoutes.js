@@ -28,7 +28,7 @@ router.get('/',async(req,res)=>{
     }
 })
 
-router.get('/:workType',async(req,res)=>{
+router.post('/:workType',async(req,res)=>{
     try{
 
         const worktype=req.params.workType;
